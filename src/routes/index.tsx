@@ -149,7 +149,7 @@ const weeks: Week[] = [
     program: "Late Season Steep Skiing",
     price: "Price placeholder",
     spots: "4 spots left",
-    note: "For experienced skiers comfortable on 40° terrain with rope work.",
+    note: "[terrain/difficulty note]",
   },
 ];
 
