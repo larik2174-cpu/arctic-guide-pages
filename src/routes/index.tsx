@@ -616,6 +616,16 @@ function ContactForm() {
           <span className={labelClass}>Name</span>
           <input required name="name" className={fieldClass} placeholder="Your name" />
         </label>
+        <label className="sm:col-span-2">
+          <span className={labelClass}>Email</span>
+          <input
+            required
+            type="email"
+            name="email"
+            className={fieldClass}
+            placeholder="you@example.com"
+          />
+        </label>
         <label>
           <span className={labelClass}>Dates</span>
           <input name="dates" className={fieldClass} placeholder="e.g. Week 12, March" />
