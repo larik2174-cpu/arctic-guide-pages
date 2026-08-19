@@ -345,7 +345,10 @@ function Index() {
         {/* Hero */}
         <section className="mx-auto max-w-6xl px-5 pt-16 pb-20 sm:px-8 sm:pt-24 sm:pb-28">
           <p className="eyebrow">Tromsø · Lyngen Alps · 69°N</p>
-          <h1 className="mt-5 max-w-3xl text-4xl leading-[1.08] font-semibold sm:text-6xl">
+          <h1
+            className="mt-5 max-w-3xl font-semibold leading-[1.08]"
+            style={{ fontSize: "clamp(2.25rem, 5vw, 3.75rem)" }}
+          >
             Ski touring in the Lyngen Alps with a certified mountain guide
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-muted-foreground sm:text-xl">
