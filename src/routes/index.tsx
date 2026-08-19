@@ -521,7 +521,7 @@ function ContactForm() {
       </button>
       {sent && (
         <p className="mt-4 font-display text-xs text-fjord">
-          Thanks — your enquiry is noted. I'll reply from jimmy@halvardsson.no.
+          Thanks — your enquiry is noted. I'll reply by email.
         </p>
       )}
     </form>
