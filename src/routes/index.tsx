@@ -172,28 +172,28 @@ const programs = [
   {
     name: "Ski Touring Week",
     price: "Price placeholder / week",
-    body: "Six days of guided touring from a single base in Lyngen. Transport, route choice and snow assessment handled; you ski.",
-    meta: "Max 6 skiers",
+    body: "[Short description of the Ski Touring Week program — text to be provided.]",
+    meta: "[max group size]",
   },
   {
     name: "Avalanche Course",
     price: "Price placeholder / course",
-    body: "Three field-heavy days on snowpack, terrain and companion rescue, taught to Norwegian standards in real touring terrain.",
-    meta: "Max 6 participants",
+    body: "[Short description of the Avalanche Course program — text to be provided.]",
+    meta: "[max group size]",
   },
   {
     name: "Private Guiding",
     price: "Price placeholder / day",
-    body: "One day or ten, shaped around your group — first summits, steep objectives, or ski mountaineering projects.",
-    meta: "1–4 skiers",
+    body: "[Short description of the Private Guiding program — text to be provided.]",
+    meta: "[max group size]",
   },
 ];
 
 const credentials = [
-  ["IFMGA / UIAGM certified", "2014"],
-  ["Avalanche training", "Level 3, Norwegian standard"],
-  ["Medical", "Wilderness First Responder, renewed annually"],
-  ["Seasons guided", "18 winters in Troms and Lyngen"],
+  ["IFMGA / UIAGM certified", "[year]"],
+  ["Avalanche training", "[details]"],
+  ["Medical", "[details]"],
+  ["Seasons guided", "[number]"],
 ];
 
 function Index() {
@@ -427,16 +427,11 @@ function Index() {
             <div>
               <p className="eyebrow">About</p>
               <h2 className="mt-4 text-3xl font-semibold sm:text-4xl">
-                Eighteen winters at 69° north
+                [About heading — text to be provided]
               </h2>
               <p className="mt-6 text-muted-foreground">
-                I grew up ski touring in northern Sweden and moved to Tromsø for the fjords. Most of
-                my winters since have been spent in Lyngen — learning how its snowpack behaves, which
-                aspects hold, and when to turn a group around.
-              </p>
-              <p className="mt-4 text-muted-foreground">
-                I keep groups small and plans flexible. The objective is decided by the snow and the
-                weather on the day, not by a brochure. Guiding is in English, Swedish or Norwegian.
+                [Short bio — where Jimmy grew up, how long he has guided in Lyngen, and his approach
+                to guiding — text to be provided.]
               </p>
               <dl className="mt-10 divide-y divide-border border-t border-border">
                 {credentials.map(([k, v]) => (
@@ -460,12 +455,9 @@ function Index() {
                 Tell me roughly when you'd like to come and who's coming. I answer every enquiry
                 personally, usually within two days.
               </p>
-              <a
-                href="mailto:jimmy@halvardsson.no"
-                className="mt-6 inline-block font-display text-sm font-semibold text-fjord underline decoration-1 underline-offset-4"
-              >
-                jimmy@halvardsson.no
-              </a>
+              <p className="mt-6 font-display text-sm font-semibold text-fjord">
+                [email to be confirmed]
+              </p>
             </div>
             <ContactForm />
           </div>
