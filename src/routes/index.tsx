@@ -197,7 +197,7 @@ const credentials = [
 ];
 
 function Index() {
-  const [selected, setSelected] = useState<Week>(weeks[3]);
+  const [selected, setSelected] = useState<Week>(weeks[3]!);
 
   return (
     <div className="min-h-screen bg-background text-foreground">
