@@ -401,7 +401,7 @@ function Index() {
               </span>
             </div>
 
-            <div className="mt-8 grid gap-10 lg:grid-cols-[1.6fr_1fr]">
+            <div className="mt-8 grid gap-10 md:max-w-3xl md:mx-auto lg:max-w-none lg:mx-0 lg:grid-cols-[1.6fr_1fr]">
               <div className="space-y-8">
                 {months.map((month) => {
                   const monthWeeks = weeks.filter((w) => w.month === month);
@@ -515,7 +515,7 @@ function Index() {
           <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8 sm:py-24">
             <p className="eyebrow">Programs</p>
             <h2 className="mt-4 text-3xl font-semibold sm:text-4xl">Three ways to ski together</h2>
-            <div className="mt-10 grid gap-5 md:grid-cols-3">
+            <div className="mt-10 grid gap-5 md:max-w-3xl md:mx-auto lg:max-w-none lg:mx-0 md:grid-cols-3">
               {programs.map((p) => (
                 <article
                   key={p.name}
@@ -609,7 +609,7 @@ function ContactForm() {
         e.preventDefault();
         setSent(true);
       }}
-      className="rounded-sm border border-border bg-card p-6 sm:p-8"
+      className="rounded-sm border border-border bg-card p-6 sm:p-8 md:max-w-2xl lg:max-w-none"
     >
       <div className="grid gap-5 sm:grid-cols-2">
         <label className="sm:col-span-2">
